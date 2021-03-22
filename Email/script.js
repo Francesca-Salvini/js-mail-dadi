@@ -10,7 +10,7 @@ var isPresente = false;
 
 for(var i = 0; i < emailDaVerificare.length; i++) {
 
-    if(emailDaVerificare[1] === emailUtente) {
+    if(emailDaVerificare[i] === emailUtente) {
         isPresente = true; 
     }
 }
