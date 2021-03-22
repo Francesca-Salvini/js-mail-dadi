@@ -15,6 +15,8 @@ console.log("Computer " + numeroComputer);
 
 if (numeroUtente < numeroComputer) {
     alert("hai perso");
+} else if (numeroUtente == numeroComputer) {
+    alert("parità");
 } else {
     alert("hai vinto");
 }
